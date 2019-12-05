@@ -1,0 +1,754 @@
+body{
+    overflow:hidden;
+}
+.con{
+    background-image: url("../assets/image/top1.jpg");
+}
+.conn{
+    background-color: rgba(31, 23, 23, 0.4);
+    overflow: hidden;
+}
+
+// navbar
+
+.opaque-navbar {
+    background-color: transparent;
+    height: 60px;
+    border-bottom: 0px;
+  
+}
+a{
+    color:rgb(179, 248, 231);
+  font-weight: bold;
+  margin-right:30px;
+}
+
+.opaque-navbar.opaque {
+    background-color: black;
+    height: 60px;
+}
+a:hover{
+  background-color: rgba(7, 7, 7,0.7);
+  color:rgb(53, 224, 216);
+}
+.navbar-brand:hover{
+    background-color: transparent;
+}
+
+
+@media only screen and (max-width: 700px) {
+
+    .opaque-navbar {
+        height: 0px;
+        border-bottom: 0px;
+        display:none;
+        /* transition: background-color .5s ease 0s; */
+    }
+    a{
+        color:rgb(201, 250, 238);
+    }
+    
+    .opaque-navbar.opaque {
+        height:0px;
+        display: none;
+    }
+    .navbar{
+        background-color:#000;
+    }
+}
+
+ 
+.hide{
+    display: block;
+  }
+  
+  .hide1{
+    display: none;
+  
+  }
+  
+  .sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 1px 1px 1px 8px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .abc{
+  font-family: 'Times New Roman', Times, serif;
+    color:white;
+  }
+  
+  .abc:hover{
+    color:#BDE6CF;
+  }
+
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .hide{
+        display: none;
+    }
+  
+    .hide1{
+        display: block;
+    }
+  }
+  .head{
+      text-align: center;
+      font-size: 40px;
+      color:#fff;
+      margin-right: 170px;
+      margin-left: 100px;;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-weight: normal;
+  }
+
+.bg{
+    background-color:rgba(8, 8, 8,0.7);
+    margin-top: 100px;;
+}
+h1{
+   text-align: center;
+    margin-left:50px;
+    margin-top:100px;
+    color: #fff;
+    font-style:oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+h2{
+   // color:rgb(53, 224, 216);
+  font-style:oblique;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+}
+// hr{
+//     margin-top:30px;
+//    width: 20%; 
+//    color:rgb(105, 91, 91);
+// }
+.p1{
+  text-align: center;
+  font-style:oblique;
+    margin-left:50px;
+    color:#fff;
+    margin-top:25px;
+    opacity:0.7;
+}
+ .p2{
+     margin-left: 160px;
+     margin-right: 100px;
+     color:rgb(53, 224, 216);
+     font-weight: bolder;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 30px;
+ } 
+ .p3{
+    text-align: center;
+    font-style:oblique;
+      margin-left:50px;
+      color:#fff;
+      margin-top:25px;
+      opacity:0.7;
+  }
+
+//Button
+.info {
+    background-color:rgba(53, 224, 216,0.7);
+    color:#fff;
+    margin-left:200px;
+    padding:10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-bottom: 40px;
+    margin-top:75px;
+    border-radius: 30px;
+  }
+  
+  .info:hover {
+    background: rgba(252, 245, 245,0.7);
+    color: #000;
+  }
+
+// who we are
+.wh{
+    margin-top:70px;
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.mo{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    // font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 30px;
+}
+hr{
+    width: 15%;
+}
+.cont {
+  width: 100%;
+  background-color: #ddd;
+}
+h6{
+    margin-top:10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+}
+.skills {
+  color: white;
+}
+
+.html {width: 86%; background-color:rgb(53, 224, 216);}
+.css {width: 95%; background-color: rgb(53, 224, 216);}
+.js {width: 78%; background-color: rgb(53, 224, 216);}
+
+// grid
+.container{
+    margin-top:50px;
+}
+
+// score
+.gri1{
+    background-image: url("../assets/image/bnw.jpg");
+    margin-top:50px;
+}
+.gri{
+    background-color: rgba(7, 7, 7, 0.5);
+   
+}
+.fa-smile-beam{
+    color:#fff;
+    margin-left: 190px;
+    font-size:55px;
+    margin-top:70px;
+    margin-bottom:10px;
+}
+.fa-atlas{
+    margin-left: 150px;
+    color:#fff;
+    font-size:55px;
+    margin-top:70px;
+    margin-bottom:10px;
+}
+.fa-award{
+    margin-left: 150px;
+    color:#fff;
+    font-size:55px;
+    margin-top:70px;
+    margin-bottom:10px;
+}
+.fa-route{
+    margin-left: 100px;
+    color:#fff;
+    font-size:55px;
+    margin-top:70px;
+    margin-bottom:10px;
+}
+.fon{
+    color:#fff;
+    margin-left:70px;
+    margin-bottom:40px;
+}
+.pp1{
+    margin-left:120px;
+    font-size:20px;
+}
+.pp2{
+    margin-left:75px;
+    font-size:20px;
+}
+.pp3{
+    margin-left:75px;
+    font-size:20px;
+}
+.pp4{
+    margin-left:37px;
+    font-size:20px;
+}
+.pp11{
+    margin-left:80px;
+    margin-bottom: 70px;
+} 
+.pp12{
+    margin-left:40px;
+}
+.pp13{
+    margin-left:55px;
+}
+.pp14{
+    margin-left:20px;
+    margin-bottom: 70px;
+}
+
+// our service
+
+.fa-lightbulb{
+    color:rgb(53, 224, 216);
+    font-size:40px;
+}
+.fa-globe{
+    color:rgb(53, 224, 216); 
+    font-size:40px;  
+}
+.fa-dumpster{
+    color:rgb(53, 224, 216);
+    font-size:40px;
+}
+.fa-desktop{
+    color:rgb(53, 224, 216);
+    font-size:40px;
+}
+.hh{
+    margin-left:25px;
+}
+.hh1{
+    margin-left:40px;
+}
+.hh2{
+    margin-left:30px;
+}
+.pd{
+    margin-left:70px;
+}
+
+// OUR WORK
+
+.work{
+    background-image: url("../assets/image/work.jpg");
+    margin-top:60px;
+}
+.btn1{
+    margin-top:100px;
+    margin-bottom: 80px;
+    margin-left:45%;
+    padding-left:20px;
+    padding-right:20px;
+    font-size: 30px;
+    background-color: transparent;
+    color:#fff;
+    border:3px solid #fff;
+}
+.ourw{
+    background-color:rgba(12, 10, 10, 0.5);
+}
+
+// Gallery
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 100%;
+    margin-left:0px;
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .h61{
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+  }
+  .ow1{
+        text-align: center;
+        font-size: 10px;
+        font-weight: normal;
+  }
+  .btn11{
+    
+    margin-left: 90px;
+    margin-bottom:20px;
+    width: 40%;
+    font-size: 12px;
+    padding-top:5px;
+    padding-bottom:5px;
+    background-color: transparent;
+    color:#000;
+    border:1px solid rgba(110, 104, 104, 0.5);
+}
+.ro1{
+    margin-top:30px;
+}
+
+// Team review
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+#demo{
+    margin-top:70px;
+}
+
+.carousel-caption{
+    margin-bottom:30px;
+} 
+.ph{
+    margin-top:40px;
+}
+.ow11{
+    font-size: 10px;
+    font-weight: normal;
+}
+
+// BLOG SECTION
+
+.flex-column {
+    max-width: 28%;
+}
+.cd{
+    margin-bottom:20px;
+}
+.cd1{
+    margin-left: 20px;
+    margin-bottom:20px;
+}
+.cd2{
+    margin-left: 30px;
+    margin-bottom:20px;
+}
+
+// FOOTER
+
+footer{
+    background-color: #000;
+    color:#fff;
+    overflow: hidden;
+}
+.coll{
+    margin-top:0px;
+}
+.hrr{
+    width: 25%;
+    margin-right: 550px;
+    color: #fff;
+    border: 1px solid #fff;
+}
+input[type=text],textarea,::placeholder {
+    background-color:rgb(110, 112, 112);
+    color: #fff;
+    border: none;
+  }
+  .btn111{
+    margin-left:0%;
+    font-size: 19px;
+    background-color:rgb(53, 224, 216);
+    color:#fff;
+}
+.sta{
+    margin-top:110px;
+}
+.fab{
+    padding:10px;
+    font-size: 23px;
+}
+.hr1{
+    width: 100%;
+    margin-top:50px;
+    border: 1px solid rgb(196, 193, 193);
+}
+.hr11{
+    display: none;
+}
+.icon{
+    display: none;
+}
+.fo{
+    text-align: center;
+    color:gray;
+    margin-top:30px;
+}
+.cop{
+    text-align: center;
+}
+.fa-heart{
+    color:rgb(53, 224, 216);
+}
+
+
+// MEDIA QUIERIES
+
+@media screen and (max-width: 786px) {
+    .head{
+        margin-right: 0px;
+        margin-left: 0px;
+      
+    }
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 260px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .rr:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .bg{
+    margin-top: 40px;;
+}
+  .p1{
+      margin-left:20px;
+      margin-top:10px;
+  }
+   .p2{
+       margin-left: 25px;
+       margin-right: 0px;
+   } 
+   .p3{
+        margin-left:20px;
+        margin-top:0px;
+    }
+  
+  //Button
+  .info {
+      background-color:rgba(53, 224, 216,0.7);
+      color:#fff;
+      margin-left:20px;
+      padding:15px;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-bottom: 0px;
+      margin-top:85px;
+      border-radius: 30px;
+    }
+    
+    .info:hover {
+      background: rgba(252, 245, 245,0.7);
+      color: #000;
+    }
+
+    // who r we grid
+    .colu{
+        margin-left:15px;
+    }
+
+    // score media quieres
+
+    /* Create four equal columns that floats next to each other */
+.colll {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: 200px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .r:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.fa-smile-beam{
+    margin-left: 20px;
+    margin-top:25px;
+    margin-bottom:0px;
+}
+.fa-atlas{
+    margin-left: 30px;
+    font-size:55px;
+    margin-top:25px;
+    margin-bottom:10px;
+}
+.fa-award{
+    margin-left: 30px;
+    margin-top:25px;
+    margin-bottom:10px;
+}
+.fa-route{
+    margin-left: 10px;
+    margin-top:25px;
+    margin-bottom:10px;
+}
+.fon{
+    color:#fff;
+    margin-left:0px;
+    margin-bottom:0px;
+}
+.pp1{
+    margin-left:20px;
+    margin-top:10px;
+    margin-bottom: 0px;
+}
+.pp2{
+    margin-left:25px;
+    margin-bottom: 0px;
+}
+.pp3{
+    margin-left:22px;
+    margin-bottom: 0px;
+}
+.pp4{
+    margin-left:12px;
+    margin-bottom: 0px;
+}
+.pp11{
+    margin-left:10px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.pp13{
+    margin-left:0px;
+    text-align: center;
+}
+.pp12{
+    margin-left:10px;
+    text-align: center;
+}
+.pp14{
+    margin-left:0px;
+    // text-align: center;
+    margin-bottom:0px;
+}
+
+//  what we can do (our services)
+.co{
+    margin-left:20px;
+    margin-right:0px;
+}
+
+.hh{
+    margin-left:35px;
+}
+.hh1{
+    margin-left:50px;
+}
+.hh2{
+    margin-left:42px;
+}
+.pd{
+    margin-left:80px;
+    margin-right:20px;
+}
+.phn{
+    margin-top:20px;
+    width: 90%;
+}
+// OUR WORK
+
+.work{
+    background-image: url("../assets/image/work\ -\ Copy.jpg");
+}
+.btn1{
+    margin-top:90px;
+    margin-left:25%;
+    font-size: 35px;
+}
+
+// Gallery
+
+.card {
+    margin-bottom: 30px;
+  }
+  .btn11{
+    margin-left: 115px;
+}
+
+// Team review
+#demo{
+    display:none;
+}
+
+// team
+.coo,.coo1{
+    margin-left: 60px;;
+}
+
+// BLOG SECTION
+
+.cd1{
+    margin-left: 10px;
+}
+.cd2{
+    margin-left: 20px;
+}
+.cd{
+    margin-left:0px;
+}
+// FOOTER
+
+footer{
+   margin-top:30px;
+}
+.coll{
+    margin-top:0px;
+    margin-left: 70px;
+}
+
+input[type=text],textarea,::placeholder {
+    width: 100%;
+    background-color:rgb(110, 112, 112);
+    color: #fff;
+    border: none;
+  }
+  .ff{
+      margin-top:20px;
+  }
+  .btn111{
+    margin-left:0%;
+    font-size: 19px;
+    background-color:rgb(53, 224, 216);
+    color:#fff;
+}
+.hr11{
+    display: block;
+        width: 100%;
+        margin-top:50px;
+        border: 1px solid rgb(196, 193, 193);
+}
+.stc{
+    display:none;
+}
+.icon{
+    display:block;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.sta{
+    margin-top:50px;
+}
+.cl{
+    margin-top: 30px;
+}
+
+
+}
